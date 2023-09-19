@@ -82,16 +82,6 @@ body {
 }
 
 /* Hero Section Start */
-.hero {
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  position: relative;
-}
 
 .hero::after {
   content: "";
