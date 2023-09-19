@@ -260,7 +260,7 @@ body {
   align-items: center;
   margin-top: 2rem;
   background-color: var(--bg);
-  border: 1px solid #eee;
+  border: 1px solid #eeee;
   padding-left: 2rem;
   border-radius: 20px;
 }
