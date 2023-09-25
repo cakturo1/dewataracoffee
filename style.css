@@ -12,6 +12,10 @@
   text-decoration: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   background-color: var(--bg);
@@ -226,7 +230,7 @@ body {
 }
 
 .menu .row .menu-card .menu-card-title {
-  margin-top: 1rem auto 0.5rem;
+  margin: 1rem auto 0.5rem;
 }
 
 /* Contact Section */
@@ -238,7 +242,6 @@ body {
   display: flex;
   margin-top: 2rem;
   background-color: burlywood;
-  flex-wrap: wrap;
   border-radius: 10px;
 }
 
@@ -316,7 +319,7 @@ footer .links a {
 }
 
 footer .credit {
-  font-size: 80%;
+  font-size: 0.8rem;
 }
 
 footer .credit a {
@@ -400,7 +403,7 @@ footer .credit a {
   }
 
   .contact .row {
-    flex-wrap: 30rem;
+    flex-wrap: wrap;
   }
 
   .contact .row .map {
@@ -408,7 +411,7 @@ footer .credit a {
   }
 
   .contact .row form {
-    padding: 0;
+    padding-top: 0;
   }
 }
 
